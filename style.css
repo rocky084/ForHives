@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+}
+.nav_logo{
+    height: 50px;
+    width: 100px;
+
+}
+/* .logo{
+    background-image: url('302315.png');
+    background-size: cover;
+    height: 50px;
+    width: 60px;
+} */
+
+.clear {
+    clear: both;
+}
+
+#nav {
+background-color: #F25F5C;
+    color: white;
+    width: 100%;
+  
+}
+
+.nav {
+    float: right;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 20px 18px 20px 18px;
+}
+
+.nav > li a {
+    text-decoration: none;
+    color:gold;
+    font-size: 15px;
+    font-style: oblique;
+    padding: 5px 0px 5px 0px;
+}
+#log{
+    margin:100px ;
+}
+
+
+
+.nav > li > a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    #logo {
+        display:none;
+    }
+}
+
+.container {
+    display: flex; /* establishes a flex container */
+    flex-direction: row; /* default value; lays out items in a row */
+    justify-content: space-between; /* distributes items along the main axis with equal spacing */
+    align-items: center; /* centers items along the cross axis */
+    height: 200px;
+    background-color:white;
+    padding: 10px;
+  }
+  
+  .item {
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    margin : 70px;
+}
+  .item-1 hover{
+    flex-grow: 50px;
+  }
+  
+  .item-1 { 
+    background-image:url('44768.jpg');
+background-size: cover;
+flex-grow: 50px; }
+  .item-2 { flex-grow: 50px;
+background-image: url('39033.png');
+background-size:cover ; }
+  .item-3 { flex-grow: 50px; 
+background-image: url('302298.jpg');
+background-size: cover;}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+
+
+}
+h3{
+    text-align: center;
+}
